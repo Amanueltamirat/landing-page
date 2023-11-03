@@ -78,6 +78,12 @@ body {
 }
 .section-one ul li {
   list-style: none;
+  cursor: pointer;
+  padding: 10px;
+}
+.section-one ul li:hover {
+  background-color: rgb(240, 237, 237);
+  padding: 4px 10px;
 }
 .logo i {
   color: #cf451fea;
@@ -105,7 +111,7 @@ body {
   font-size: 16px;
 }
 .section-two {
-  background-image: url("istockphoto-1363104989-612x612.jpg");
+  background-image: url("images/istockphoto-1363104989-612x612.jpg");
   background-repeat: no-repeat;
   background-position-y: center;
   background-size: cover;
